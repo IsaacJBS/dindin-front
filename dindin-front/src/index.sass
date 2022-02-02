@@ -1,0 +1,57 @@
+@import './variaveis/_variables'
+*
+    padding: 0px
+    margin: 0px
+    box-sizing: border-box
+    border: none
+
+body::-webkit-scrollbar
+    width: 5px
+
+body::-webkit-scrollbar-track
+    background: grey
+
+body::-webkit-scrollbar-thumb
+    background-color: grey
+    border-radius: 20px
+    border: 3px solid $line
+
+.container-body
+    width: 100%
+    height: 80vh
+    background-color: $white
+    border-radius: 60px 60px 0px 0px
+    margin-top: -120px
+    display: flex
+    justify-content: center
+    padding: 0px 50px
+
+    &-content
+        width: 85%
+        align-self: center
+        height: 70vh
+        display: flex
+        flex-direction: column
+
+.open-filters-button
+    cursor: pointer
+    font-family: $lato
+    font-weight: bold
+    display: flex
+    align-items: center
+    padding: 8px 15px
+    background-color: $white-2
+    border-radius: 10px
+    box-shadow: 0px 2px 11px 0px #0000001A
+
+    margin-bottom: 25px
+
+    img
+        margin-right: 10px
+
+.table
+    display: flex
+    flex-direction: column
+
+.hidden
+    display: none

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:ital,wght@0,300;0,700;1,500&display=swap");
+.container-header {
+  width: 100%;
+  background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+  height: 224px;
+}
+
+.container-header-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.container-header h1 {
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=header.css.map */
