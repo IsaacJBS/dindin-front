@@ -20,7 +20,7 @@ Tabela de gastos feita com React e SASS, utilizando uma api para salvar os dados
 ## Como acessar o projeto:
 
 ```
-git clone git@github.com:IsaacJBS/desafio-frontend-modulo-2.git
+git clone git@github.com:IsaacJBS/dindin-front.git
 abrir a pasta da api e colocar 'npm run dev' no terminal
 abrir a pasta do front e digitar 'npm start'
 ficar feliz guardando suas entradas e saídas 😄
